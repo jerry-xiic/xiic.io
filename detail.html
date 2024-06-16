@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="Author" content="只会切图的前端">
+    <title>购物网站大作业</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/detail.css">
+</head>
+
+<body>
+    <!--顶部导航 -->
+    <div class="site-nav">
+        <div class="site-nav-bd">
+            <ul>
+                <a href="denglu.html"><li>登录</li></a>
+                <a href="zhuce.html"><li>注册</li></a>
+                <li><a href="my_orders.html">我的订单</li></a>
+                <li>
+                    <a href="my_orders.html"><img src="img/car.png"><span>购物车</span></a>
+                </li>
+                <li>
+                    <a href="favorite.html"><img src="img/star.png"><span>收藏夹</span></a>
+                </li>
+                <a href="kefu.html"><li>联系客服</li></a>
+            </ul>
+        </div>
+    </div>
+    <!--顶部导航 end-->
+    <!--搜索-->
+    <div class="top-box">
+        <div class="logo">
+            <p>商城</p>
+            <p class="small">store</p>
+        </div>
+        <!--搜索框-->
+        <div class="search-box">
+            <div class="search-in">
+                <span>
+                    宝贝<img src="img/down.png" width="10" style="margin-left:10px">
+                </span>
+                <img src="img/search.png" width="16">
+                <input type="text" placeholde="充电宝">
+                <div class="but">搜索</div>
+            </div>
+            <!--标签-->
+            <div class="tag">
+                <a>运动裤</a>
+                <a>四件套</a>
+                <a class="on">手机</a>
+                <a>潮流T恤</a>
+                <a>外套</a>
+                <a>女包</a>
+                <a>沙发</a>
+                <a>台灯</a>
+            </div>
+        </div>
+    </div>
+    <!--搜索 end-->
+    <!--导航条-->
+    <div class="nav-box">
+        <ul>
+            <li class="on">首页</li>
+            <li>3折疯抢</li>
+            <li>衣服</li>
+            <li>裤子</li>
+            <li>鞋子</li>
+            <li>帽子</li>
+            <li>家具</li>
+            <li>手机</li>
+            <li><span>更多</span>
+                <div class="nav-hide">
+                    <p>关于我们</p>
+                    <p>联系我们</p>
+                    <p>加入我们</p>
+                    <p>意见反馈</p>
+                </div>
+            </li>
+        </ul>
+
+    </div>
+    <!--导航条end-->
+    <!--详情-->
+    <div class="detail">
+        <div class="detail-top">
+            <div class="detail-photo">
+                <div class="big-pic">
+                    <img src="img\detail\1.png" id="bigPic">
+                </div>
+                <div class="small-pic">
+                    <img src="img\detail\2.png" class="on">
+                    <img src="img\detail\3.png">
+                    <img src="img\detail\4.png">
+                    <img src="img\detail\5.png">
+                </div>
+            </div>
+
+            <!--产品介绍-->
+            <div class="detail-goods">
+                <h2 class="goods-tit">雀巢咖啡伴侣奶油球奶球10ml*50粒原味奶精植脂糖包奶包袋装正品</h2>
+                <div class="goods-row">
+                    <span class="tip">价格</span>
+                    <span class="price">￥23.5</span>
+                </div>
+                <div class="goods-row">
+                    <span class="tip"></span>
+                    <span class="sold">月销量<span>99</span></span>
+                </div>
+                <div class="goods-row">
+                    <span class="tip">种类</span>
+                    <div class="sel-box">
+                        <span class="on">巧克力味</span>
+                        <span>草莓味</span>
+                        <span>蓝莓味</span>
+                    </div>
+                </div>
+                <div class="goods-row">
+                    <span class="tip">数量</span>
+                    <div class="num-box">
+                        <input type="number" value="1" class="num">
+                        <div class="num-tip">
+                            件 有货 （每人限购3件）
+                        </div>
+                    </div>
+                </div>
+                <div class="goods-row">
+                    <span class="tip"></span>
+                    <div class="buy-now">立即购买</div>
+                    <div class="add-car">
+                        加入购物车
+                    </div>
+                </div>
+
+                <div class="goods-row">
+                    <span class="tip">服务承诺</span>
+                    <span class="serve"> 正品保证 极速退款 退货运费险 七天无理由退换 </span>
+                </div>
+
+            </div>
+            <!--产品介绍 end-->
+        </div>
+        
+        <div class="detail-ad">
+            <img src="img\detail\qckf.png">
+        </div>
+        <div class="goods-detail">
+            <img src="img\detail\qckf1.png">
+            <img src="img\detail\qckf2.png">
+           <video width="700px" height="500px" controls>
+            <source src="img\detail\6.mp4" type="video/mp4">
+           </video> 
+        </div>
+
+    </div>
+    <!--详情end-->
+
+    <!--底部-->
+    <div class="foot">
+        <p> Copyright © 2024 All Rights Reserved</p>
+    </div>
+    <!--底部end-->
+
+    <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js">
+    </script>
+    <script>
+        $(function () {
+            //切换大图
+            $(".small-pic").on("mousemove", "img", function () {
+                $(".small-pic img").removeClass("on"); //移除选中
+                $(this).addClass("on"); //新增选中 class
+
+                let indexNow = $(this).index() + 1;
+
+                //修改大图
+                let bigUrl = "./img/detail/" + indexNow + "s.png";
+                console.log(bigUrl);
+                $("#bigPic").attr("src", bigUrl);
+            })
+            //选中颜色
+            $(".sel-box").on("click", "span", function () {
+                $(".sel-box span").removeClass("on");
+                $(this).addClass("on");
+            })
+        })
+    </script>
+</body>
+
+</html>

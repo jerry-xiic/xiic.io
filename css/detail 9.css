@@ -1,0 +1,191 @@
+.detail {
+    width: 1200px;
+    margin: 10px auto;
+    background: #fff;
+    padding: 10px 0;
+    min-height: 500px;
+}
+
+.detail-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* 产品图 */
+.detail-photo {
+    width: 420px;
+    margin-left: 10px;
+}
+
+/* 大图 */
+.big-pic {
+    width: 420px;
+    height: 420px;
+    border: 1px solid #ddd;
+}
+
+.big-pic img {
+    width: 100%;
+    height: 100%;
+}
+
+/* 小图 */
+.small-pic {
+    width: 90%;
+    margin: 10px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.small-pic img {
+    width: 60px;
+    height: 60px;
+    border: 2px solid #fff;
+}
+
+/* 鼠标移入 */
+.small-pic img:hover,
+.small-pic img.on {
+    border: 2px solid #333;
+}
+
+.detail-goods {
+    flex: 1;
+    margin: 0 40px;
+}
+
+.goods-tit {
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.goods-row {
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 20px;
+    line-height: 30px;
+    min-height: 30px;
+}
+
+.goods-row .tip {
+    font-size: 12px;
+    color: #999;
+    width: 66px;
+
+}
+
+.goods-row .price {
+    color: #FF0036;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.goods-row .sold {
+    height: 16px;
+    color: #999;
+}
+
+.goods-row .sold span {
+    color: #FF0036;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.sel-box {
+    display: flex;
+}
+
+.sel-box span {
+    font-size: 12px;
+    color: #000;
+    height: 24px;
+    line-height: 24px;
+    padding: 0 15px;
+    border: 1px solid #ddd;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.sel-box span.on {
+    border: 2px solid #FF0036;
+    position: relative;
+}
+
+.sel-box span.on::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    right: -2px;
+    width: 12px;
+    height: 12px;
+    overflow: hidden;
+    display: block;
+    background: url(../img/detail/sel.png) no-repeat center center;
+}
+
+.num-box {
+    display: flex;
+    align-items: center;
+}
+
+.num {
+    border: 1px solid #000;
+    width: 60px;
+    height: 30px;
+    line-height: 30px;
+    text-indent: 10px;
+    outline: medium;
+}
+
+.num-tip {
+    font-size: 12px;
+    margin-left: 10px;
+    color: #898989;
+}
+
+.buy-now {
+    margin-right: 10px;
+    width: 178px;
+    background-color: #ffeded;
+    border: 1px solid #FF0036;
+    color: #FF0036;
+    line-height: 38px;
+    height: 38px;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.add-car {
+    width: 178px;
+    height: 38px;
+    background: #ff0036;
+    border: 1px solid #ff0036;
+    color: #fff;
+    line-height: 38px;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.add-car img {
+    margin-right: 10px;
+}
+
+.serve {
+    color: #787878;
+    font-size: 12px;
+}
+
+.detail-ad {
+    margin: 30px;
+}
+
+.goods-detail {
+    margin: 30px;
+}
+

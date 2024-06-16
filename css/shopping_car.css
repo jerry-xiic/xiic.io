@@ -1,0 +1,68 @@
+*{font-family: "宋体";}
+.page{display: flex;}
+
+.left{border: 1px solid rgb(207, 207, 207) ;
+width: 2500px;
+height: auto;}
+
+.button{width: 50px;
+height: 50px;
+position: relative;
+top: 55px;}
+
+.cloth,.shoe{width: 2400px;
+border: 1px solid rgb(239, 239, 239);}
+
+.cloth,.txv {
+    display: flex;
+    align-items: center;
+}
+
+.shoe,.shoes {
+    display: flex;
+    align-items: center;
+}
+
+.describe{margin-left: 50px;
+font-size: 50px;
+color: rgba(198, 131, 240, 0.824);}
+h1{margin-left: 50px;
+font-size: 50px;}
+.price{margin-left: 50px;
+font-size: 50px;
+color: red;}
+    
+
+.cloth{margin: 50px;
+background-color: white;}
+.shoe{margin: 50px;
+background-color: rgb(212, 211, 211);}
+
+
+.right{display: flex;
+    position: fixed;
+    right: 5%;
+    top: 5%;
+    border: 3px dotted rgb(255, 0, 0);
+    box-shadow: inset;
+    width: auto;
+    height: 350px;
+}
+
+.total{font-size: 50px;
+color: red;
+position: relative;
+top: 20%;}
+
+.jiesuan {
+    position: relative;
+    top: 70px;
+    transition: all 1s ease;
+    margin: 20px;
+}
+
+.jiesuan:hover {
+    transform: rotate(360deg) scale(1.1);
+    box-shadow: 0 2px 4px rgb(181, 171, 176);
+}
+

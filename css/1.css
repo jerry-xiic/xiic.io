@@ -1,0 +1,60 @@
+header {
+  background-color: white;
+  padding: 20px;
+}
+
+header h1 {
+  margin: 0;
+}
+.yi{
+  width: 1400px;
+  height: 2000px;
+}
+
+
+.favorite-item {
+  width: 200px;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #e7eaed;
+  float: left;
+}
+
+.favorite-item img {
+  width: 100%;
+}
+
+.favorite-item h3 {
+  margin: 5px 0;
+}
+
+.favorite-item p {
+  margin: 5px 0;
+}
+
+footer {
+  background-color: #f8f9fa;
+  padding: 20px;
+    line-height: 50px;
+    text-align: center;
+    padding:30px 0;
+    color:#999;
+    font-size:12px;
+}
+.name {
+  font-size: 12px;
+  line-height: 20px;
+  text-align: center;
+}
+.price {
+  color: #f40;
+  font-size: 20px;
+  line-height: 30px;
+}
+.title {
+background-color: orangered;
+}
+strong{
+  font-size: 50px;
+  font-style: italic;
+}

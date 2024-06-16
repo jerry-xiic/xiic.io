@@ -1,0 +1,70 @@
+.yi{
+    width: 80px;
+    height: 50px;
+    float: left;
+    align-items: center;
+}
+.one{
+    width: 600px;
+    margin-left: 250px;
+    margin-right: 200px;
+}
+.er{
+    width: 1000px;
+
+}
+a{font-size: 20px;
+align-self: center;
+margin-top: 20px;}
+.san{
+    width: 100px;
+    float: left;
+    font-size: 30px ;
+    border: 1px solid gray;
+    align-items: center;
+    color: #ff5000;
+}
+.si{width: 480px;}
+img{width: 50px;
+height: 40px;}
+.wu {
+    width: 500px;
+    height: 42px;
+    background: #fff;
+    border: 1px solid #ff5000;
+    margin-left: 258px;
+    border-radius: 20px;
+    float: left;
+    position: relative;
+}
+.liu {
+    display: flex;
+    align-items: left;
+    justify-content: flex-start;
+}
+.liu input {
+    margin-left: 5px;
+    border: none;
+    background: transparent;
+    outline: medium;
+    float: left;
+}
+.liu .but {
+    position: absolute;
+    top: 4px;
+    right: 6px;
+    background-image: linear-gradient(to right, #ff9000 0%, #ff5000 100%);
+    width: 73px;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+    color: #fff;
+    font-size: 17px;
+    border-radius: 20px;
+    float: left;
+}
+.two{
+    width: 150px;
+    background-color: #ff5000;
+    height: 50px;
+}

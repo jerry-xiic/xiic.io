@@ -1,0 +1,31 @@
+*{font-family: "宋体";}
+[id^="goods"] {border: 1px solid rgb(207, 207, 207) ;
+    width: 2500px;
+    height: auto;
+margin-bottom: 30px;}
+
+.time,.danhao,.shopped,.shorts,.price{display: flex;}
+
+
+.describe{margin-left: 50px;
+    font-size: 50px;
+color: rgba(198, 131, 240, 0.824);}
+
+.price{margin-left: 50px;
+font-size: 50px;}
+
+.user{margin-left: 50px;
+font-size: 50px;
+color: gainsboro;}
+
+.zhuangtai{margin-left: 50px;
+font-size: 50px;
+color: gainsboro;}
+
+.a{margin-left: 50px;
+font-size: 50px;
+text-decoration: none;
+line-height: 170px;
+}
+
+.a:hover{color: red;}

@@ -1,0 +1,65 @@
+body{
+    background-color: rgb(240, 240, 240);
+}
+
+    #div1{
+    position: relative;
+    left: 5%;
+    top: 10%;
+}
+#p1{
+    font-size: 30px;
+    font-family: "YouYuan";
+    color: rgb(243, 133, 37);
+}
+
+#div2{
+    position: relative;
+    width: 550px;
+    height: 400px;
+    left: 34%;
+    top: 50px;
+    
+    font-size: 27px;
+    border-radius: 4%;
+    background-color: rgb(255, 255, 255);
+}
+#div2-1{
+    position: relative;
+    left: 121px;
+    top: 39px;
+}
+#div2-2{
+    position: relative;
+    left: 128px;
+    top: 48px;
+}
+#div2-3{
+    position: relative;
+    left: 74px;
+    top: 62px;
+}
+#div2-4{
+    position: relative;
+    left: 101px;
+    top: 80px;
+}
+#div2-5{
+    position: relative;
+    left: 215px;
+    top: 92px;
+    font-size: 30px;
+    background-color: rgb(139, 237, 141);
+}
+#div2-6{
+    position: relative;
+    left: 184px;
+    top: 95px;
+    font-size: 18px;
+}
+
+#div3{
+    position: relative;
+    top: 500px;
+    left: 30px;
+}
